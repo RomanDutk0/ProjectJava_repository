@@ -1,0 +1,11 @@
+Connected successfully!
+Connected successfully!
+17:22:12.560 [JavaFX Application Thread] INFO gui.DbHandler - ID retrieved successfully for company 'Roman33'
+Connected successfully!
+17:22:19.233 [JavaFX Application Thread] INFO gui.DbHandler - Capacity calculated for company with ID '3': 48
+Connected successfully!
+17:22:19.948 [JavaFX Application Thread] INFO gui.DbHandler - Printed aviacompany with ID '3'
+Connected successfully!
+Connected successfully!
+Connected successfully!
+17:22:27.377 [JavaFX Application Thread] INFO gui.DbHandler - Printed plane 'ira2'

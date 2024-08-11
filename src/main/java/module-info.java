@@ -1,16 +1,15 @@
-module org.example.cursova {
+module com.example.coursetask {
     requires javafx.controls;
     requires javafx.fxml;
-    requires javafx.web;
 
     requires org.controlsfx.controls;
-    requires com.dlsc.formsfx;
-    requires net.synedra.validatorfx;
-    requires org.kordamp.ikonli.javafx;
     requires org.kordamp.bootstrapfx.core;
-    requires eu.hansolo.tilesfx;
+    requires java.sql;
     requires com.almasb.fxgl.all;
+    requires org.slf4j;
+    requires org.mockito;
+    requires org.junit.jupiter.api;
 
-    opens org.example.cursova to javafx.fxml;
-    exports org.example.cursova;
+    opens gui to javafx.fxml;
+    exports gui;
 }
