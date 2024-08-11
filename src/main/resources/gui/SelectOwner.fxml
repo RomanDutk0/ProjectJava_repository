@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="602.0" style="-fx-background-color: #191970;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.SelectOwnerController">
+    <children>
+        <AnchorPane prefHeight="94.0" prefWidth="602.0" style="-fx-background-color: #FFD700;">
+            <children>
+                <AnchorPane layoutX="-76.0" layoutY="26.0" prefHeight="27.0" prefWidth="252.0" rotate="-37.9" style="-fx-background-color: #191970;" />
+                <Label layoutX="181.0" layoutY="24.0" text="Вибір власника">
+                    <font>
+                        <Font name="Segoe UI Black Italic" size="30.0" />
+                    </font>
+                </Label>
+                <Button fx:id="toMainButton" layoutX="470.0" layoutY="10.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="118.0" style="-fx-background-color: #76BDDA;" text="На головну">
+                    <font>
+                        <Font name="Consolas" size="14.0" />
+                    </font>
+                </Button>
+                <Button fx:id="toPreviousButton" layoutX="470.0" layoutY="47.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="117.0" style="-fx-background-color: #76BDDA;" text="На попередню">
+                    <font>
+                        <Font name="Consolas" size="14.0" />
+                    </font>
+                </Button>
+            </children>
+        </AnchorPane>
+        <Button fx:id="selectOwnerButton" layoutX="221.0" layoutY="232.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="160.0" style="-fx-background-color: #87CEEB;" text="Обрати власника">
+            <font>
+                <Font name="Consolas" size="16.0" />
+            </font>
+        </Button>
+        <ChoiceBox fx:id="typeChoiceBox" layoutX="48.0" layoutY="168.0" prefWidth="150.0" />
+        <Label layoutX="35.0" layoutY="143.0" text="Оберіть тип власника" textFill="WHITE">
+            <font>
+                <Font name="Consolas" size="16.0" />
+            </font>
+        </Label>
+        <Label layoutX="198.0" layoutY="117.0" text="Вкажіть ім'я та прізвище, якщо власник особа" textFill="WHITE">
+            <font>
+                <Font name="Consolas" size="16.0" />
+            </font>
+        </Label>
+        <TextField fx:id="firstNameField" layoutX="226.0" layoutY="139.0" />
+        <TextArea fx:id="finishMsg" layoutX="198.0" layoutY="274.0" prefHeight="112.0" prefWidth="205.0" style="-fx-background-color: #191970;">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font></TextArea>
+        <TextField fx:id="lastNameField" layoutX="435.0" layoutY="139.0" />
+        <Label layoutX="245.0" layoutY="171.0" text="Вкажіть країну, якщо власник держава" textFill="WHITE">
+            <font>
+                <Font name="Consolas" size="16.0" />
+            </font>
+        </Label>
+        <TextField fx:id="countryField" layoutX="328.0" layoutY="187.0" />
+    </children>
+</AnchorPane>
